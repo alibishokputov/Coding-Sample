@@ -541,7 +541,7 @@ m
 df_weighted, diagnostics, county_emp_tbl = srw.run_full_weighting_pipeline(
     model_df,
     acs_year=2024,
-    api_key="9cb57f8ef6deecfe7c23bc45c30300c9604757e1",
+    api_key="",
     rake_max_iter=150,
     rake_tol=1e-3,
 )
@@ -701,7 +701,7 @@ print(or_table.to_string(index=False))
 # In[ ]:
 
 
-api_key = 'AIzaSyCQSEIhJtmkevRygoAO3Dfy-22pP188CWI'
+api_key = ''
 api_cfg = g_api_commute.CommuteAPIScenarioConfig()
 gmaps_client = googlemaps.Client(
     key=api_key,
