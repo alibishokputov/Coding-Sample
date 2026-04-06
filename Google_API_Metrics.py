@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 import googlemaps
 
-api_key = 'AIzaSyCQSEIhJtmkevRygoAO3Dfy-22pP188CWI'
+api_key = ''
 
 
 @dataclass
